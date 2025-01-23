@@ -1,0 +1,12 @@
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px; 
+}
+
+.grid-item {
+  width: calc((400px - 17px) / 16); 
+  height: calc((400px - 17px) / 16);
+  border: 1px solid black; 
+  box-sizing: border-box; 
+}
